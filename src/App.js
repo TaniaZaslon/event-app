@@ -1,12 +1,15 @@
 import React from 'react';
-import DefaultLayout from './layouts/DefaultLayout';
+
+import Header from "./layouts/Header";
+import Footer from "./layouts/Footer";
 import './styles/index.scss';
 
 const App = () => {
   return (
-    <div className="App">
-      <DefaultLayout />
-    </div>
+    <>
+      <Header />
+      <Footer />
+    </>
   );
 }
 

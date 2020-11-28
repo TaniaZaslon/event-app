@@ -1,0 +1,36 @@
+.top-nav {
+  transition: all .7s linear;
+  .nav-link {
+    font-size: 14px;
+    padding: 26px 18px !important;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: $black;
+    opacity: .9;
+  }
+}
+
+@include mobile {
+  .top-nav .nav-link {
+    padding: 10px 18px !important;
+  }
+}
+
+// @include mobile-xs {
+//   .top-nav .nav-link {
+//     padding: 10px 18px !important;
+//   }
+// }
+
+@include tablet {
+  .top-nav .nav-link {
+    padding: 10px 18px !important;
+  }
+}
+
+@include desktop {
+  .top-nav .nav-link {
+    padding: 10px 18px !important;
+  }
+}

@@ -1,0 +1,31 @@
+.btn {
+  line-height: 1;
+  padding: 16px 32px;
+  box-shadow: 0 11px 22px rgba(34, 34, 34, .2);
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  will-change: box-shadow;
+  font-size: 13px;
+  border-radius: 0px;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  border: 2px solid transparent;
+  font-weight: 700;
+  font-family: $base-font;
+}
+
+.btn-rounded {
+  border-radius: 60px;
+}
+
+.btn-secondary {
+  background: $secondary-color;
+  border-color: $secondary-color;
+  color: $white;
+
+  &:hover {
+    background: transparent;
+    color: $black;
+    border-color: $secondary-color;
+  }
+}
