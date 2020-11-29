@@ -17,11 +17,11 @@
   }
 }
 
-// @include mobile-xs {
-//   .top-nav .nav-link {
-//     padding: 10px 18px !important;
-//   }
-// }
+@include mobile-xs {
+  .top-nav .nav-link {
+    padding: 10px 18px !important;
+  }
+}
 
 @include tablet {
   .top-nav .nav-link {

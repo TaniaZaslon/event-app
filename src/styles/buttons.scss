@@ -18,6 +18,18 @@
   border-radius: 60px;
 }
 
+.btn-hero {
+  background: #ff007a;
+  color: #ffffff;
+  border-color: #ff007a;
+
+  &:hover {
+    background: $black;
+    color: $white;
+    border-color: $black;
+  }
+}
+
 .btn-secondary {
   background: $secondary-color;
   border-color: $secondary-color;
