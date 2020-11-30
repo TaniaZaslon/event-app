@@ -6,10 +6,11 @@ import Footer from "./layouts/Footer";
 import './styles/index.scss';
 
 const App = () => {
+  const eventDate = new Date('December 17, 2020 10:00:00');  
   return (
     <>
       <Header />
-      <Content />
+      <Content eventDate={eventDate} />
       <Footer />
     </>
   );
