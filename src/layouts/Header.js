@@ -2,7 +2,7 @@ import React from 'react';
 import { Container } from 'react-bootstrap';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import Button from 'react-bootstrap/Button'
+import Button from 'react-bootstrap/Button';
 
 const Header = () => {
   return (
@@ -21,8 +21,7 @@ const Header = () => {
           <Navbar.Toggle aria-controls="top-navbar-nav"/>
           <Navbar.Collapse id="top-navbar-nav" className="text-center">
             <Nav className="mx-auto">
-              <Nav.Link href="#home">About event</Nav.Link>
-              <Nav.Link href="#benefits">Benefits</Nav.Link>
+              <Nav.Link href="#about">About event</Nav.Link>             
               <Nav.Link href="#apply">Apply</Nav.Link>
               <Nav.Link href="#contacts">Contacts</Nav.Link>          
             </Nav>
