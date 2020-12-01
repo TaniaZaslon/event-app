@@ -1,3 +1,26 @@
 .section {
   padding: 90px 0px;
 }
+
+.box-shadow {
+  box-shadow: 0 15px 38px 0 rgba(0, 0, 0, 0.1);
+}
+
+.border-left {
+  border-left: 1px solid rgba(0, 0, 0, 0.06) !important;
+}
+
+.form-control {
+  border-color: $border-color;
+  height: 35px;
+  padding-left: 20px;
+  font-size: 13px;
+  background: #eee; 
+    &:focus,
+    &:hover,
+    &:active {
+    box-shadow: none;
+    border-color: $primary-color;
+  }
+}
+
