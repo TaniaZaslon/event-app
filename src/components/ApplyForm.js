@@ -49,7 +49,7 @@ const ApplyForm = () => {
             {submitted && (<div className="p-5">              
                 <h4>Thank You For Registration!</h4>
                 <div className="mb-2 mt-3">Don't forget follow us in social network</div>
-                <SocialNetworks />
+                <SocialNetworks color="black" />
               </div>)}
             <div className={`apply-form p-5 border-left ${hideForm && "d-none"}`}>
               <div className="mb-4">
