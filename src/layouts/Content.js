@@ -3,6 +3,7 @@ import Banner from '../components/Banner';
 import Countdown from '../components/Countdown';
 import AboutEvent from '../components/AboutEvent';
 import ApplyForm from '../components/ApplyForm';
+import Contacts from '../components/Contacts';
 
 const Content = ({eventDate}) => {
   return (
@@ -18,6 +19,9 @@ const Content = ({eventDate}) => {
       </section>
       <section id="apply" className="apply-section section">
         <ApplyForm />
+      </section>
+      <section id="contacts" className="contacts-section section">
+        <Contacts eventDate={eventDate} />
       </section>
     </>
   );
